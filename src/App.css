@@ -1,38 +1,348 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App .right {
+  width: 100%;
+  height: 100vh;
+  background: #eeeee4
+
+
+
+  ;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.navbar h1 {
+  color: white;
+  position: relative;
+  left: 50px;
+  background-color: red;
+  background-size: 10%;
+  width: 8%;
+}
+
+.navbar a :hover {
+  border-color: #99d114;
+}
+
+
+.navbar h4{
+  position: relative;
+  left: 50px;
+  top: -50px;
+  color: rgb(21, 19, 19);
+
+}
+
+.navbar a{
+  position: relative;
+  left: 250px;
+  bottom: 40px;
+  color: rgb(22, 21, 21);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.navbar form {
+  position: relative;
+  left: 50px;
+  top: -30px;
+  border-radius: 4px;
+}
+
+.navbar input {
+  border-radius: 40px;
+  border-color: white white white;
+  font-size: 20px;
+
+}
+
+.navbar SearchIcon{
+  font-size: 10px;
+}
+
+.App .left {
+  width: 50%;
+  height: 100vh;
+  background: #154c79 ;
+}
+
+.left .one {
+  color: red;
+  margin:auto;
+  position: relative;
+  left: 260px;
+  line-height: 0;
+  font-size: 12px;
+}
+
+.one h3 ,h4 {
+  color: white;
+  font-size: 12px;
+}
+
+.one h3 {
+  position: relative;
+  left: 50px;
+
+}
+.two {
+  width: 250px;
+  background-color: #1d2a6c;
+  border: 1px solid black;
+  padding: 50px;
+  position: relative;
+  left: 60px;
+  bottom: -40px;
+  border-radius: 30px;
+  font-size: 10px;
+}
+
+.two h4 {
+  color: greenyellow;
+  font-size: small;
+  position: absolute;
+  left: 25px;
+  top: 10px;
+  color: red;
+}
+
+.two h5 {
+  position: absolute;
+  left: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.none {
+  color:azure; 
+  position: absolute;
+  right: 250px;
+  top: 280px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contwo {
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  top: 70px;
+  right: -70px;
 }
+
+.box1{
+  width: 170px;
+  background-color: #154c79;
+  border: 1px solid white;
+  border-radius: 10px;
+  
+}
+
+.box2 {
+    width: 170px;
+    background-color: #154c79;
+    border: 1px solid white;
+    border-radius: 10px;
+  
+}
+
+.plast {
+
+  width: 480px;
+  background-color: #042d63
+
+
+
+  ;
+  height: 363px;
+  position: relative;
+  top: 90px;
+}
+
+.plast p {
+  color: white;
+  position: relative;
+  right: -75px;
+  top: 10px;
+}
+
+.two h3 {
+  color: white;
+  position: relative;
+  left: -25px;
+}
+
+.pp2 {
+  color: white;
+  font-size: 8px;
+  padding: 8px;
+}
+
+.foot p{ 
+  color: white;
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+#rectangle_1 {
+	top: -10px;
+
+  width: 282px;
+  background-color: #1d2a6c;
+  position: relative;
+  right: -50px;
+  border-radius: 10px;
+  color: white;
+  background: white;
+  margin-top: 20px;
+  margin-right: 14px;
+  border-style: dotted;
+    border-color: red;
+}
+
+#rectangle_1  p{
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  top: 130px;
+
+
+}
+
+.aaa {
+  color: white;
+  position: relative;
+  left: 10px;
+}
+
+.bbb {
+  color: white;
+  position: relative;
+  left: 10px;
+
+}
+
+.ddd {
+  color: white;
+  position: relative;
+  left: 14px;
+}
+
+.eee {
+  color: white;
+  position: relative;
+  left: 14px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 15px;
+  width: 95%;
+}
+
+
+
+.card {
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 20px;
+  transform: .3s;
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  margin: 10px;
+  position: relative;
+  left: 40px;
+
+ 
+
+}
+
+.card h3 {
+  color:rgb(91, 88, 88);
+  position: relative;
+  top: -20px;
+}
+
+.card p {
+  color: rgb(44, 50, 50);
+  position: relative;
+  top: 33px;
+}
+
+.card:hover {
+  border-color: #1d39c4;
+}
+
+.contone {
+  display: flex;
+  column-gap: 20px;
+  position: relative;
+  right: -70px;
+  top: 20px;
+}
+
+.box3 {
+  width: 170px;
+  background-color: #042d63;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.box5 {
+  width: 170px;
+  background-color: #042d63;
+  border: 1px solid white;
+  border-radius: 10px; }
+
+  .cc1 {
+    color: #fff;
+    font-size: 8px;
+    position: relative;
+    left: 8px;
+    top: -60px;
+    padding: 8px;
+  }
+
+
+  .pp {
+    color: #fff;
+    font-size: 8px;
+    padding: 8px;
+  }
+
+  .ll2 {
+    color: #fff;
+    font-size: 8px;
+    position: relative;
+    left: 8px;
+    top: -60px;
+    padding: 8px;
+  }
